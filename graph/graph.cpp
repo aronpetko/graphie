@@ -7,7 +7,7 @@
 Graph::Graph(GraphSettings settings) : settings(settings)
 {}
 
-GraphSettings &Graph::get_settings()
+GraphSettings& Graph::get_settings()
 {
     return settings;
 }
